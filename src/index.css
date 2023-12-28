@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yekanbakh;
+  src: url("./assets/Fonts/Yekan Bakh Regular.ttf");
+}
+* {
+  font-family: yekanbakh;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
